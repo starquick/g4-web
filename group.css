@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(paradise.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Nav Bar Style */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #307C91;
+}
+.navhead {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style-type: none;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
+}
+/* Welcome */
+.Welcome {
+    text-align: left;
+    color: white;
+    font-size: 80px;
+    margin-left: 30px;
+}
+
+    
+/* Footer Style */
+footer {
+    position: fixed;
+    background-color: #307C91;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    height: 40px;
+    text-align: center;
+}
